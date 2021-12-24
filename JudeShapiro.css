@@ -1,0 +1,66 @@
+
+/* ------------------------------------------------------------------------------
+	FONTS
+-------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap);
+
+body {
+  background-color: #00030a
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #ec06bb;
+	margin: 0;
+}
+
+h1, h2, h3 {
+	font-family: "Work Sans";
+	color: #42043f;
+	font-variant: small-caps;
+	text-align: center;
+	font-size: 70px;
+	font-weight: 900;
+	font-kerning: 50;
+	margin: auto;
+	height: 70px;
+	padding: 10px;
+}
+
+h2 {
+	color: #ff0037;
+}
+
+h3 {
+	color: #500f25;
+}
+
+.button{
+  text-align: center;
+  display: inline;
+}
+
+.judeButton {
+    background-color: transparent;
+    border: 1px solid rgb(126, 114, 114);
+    color: rgb(126, 114, 114);
+    font-family: MetricWeb,sans-serif;
+    line-height: 16px;
+    font-weight: 600;
+    border-radius: 150px;
+    font-size: 12px;
+    text-decoration: none;
+    max-width: 250px;
+    outline-offset: 2px;
+    padding: 5px 12px;
+    transition: border-color,background-color .5s ease;
+  }
+
+  a {
+    margin:auto;
+
+  }
